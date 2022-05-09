@@ -8,6 +8,7 @@ export class AppController {
   @Get()
   getHello(): string {
     console.log("++++++++++++++++++++++++++++++++++")
+    console.log("================================")
     return this.appService.getHello();
   }
 }
